@@ -1,0 +1,1060 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1108.0821                               -->
+<workbook original-version='18.1' source-build='2022.3.1 (20223.22.1108.0821)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='main' inline='true' name='federated.09tos4o11xru0c17lsjt9041yetb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='main' name='textscan.0kxgxej1mea8ra16xbc40100jgua'>
+            <connection class='textscan' directory='C:/Users/Peter/Documents/work/SEIR_COVID-main' filename='main.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0kxgxej1mea8ra16xbc40100jgua' name='main.csv' table='[main#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='Day' ordinal='0' />
+            <column datatype='integer' name='daily_new_cases' ordinal='1' />
+            <column datatype='integer' name='daily_recovered_cases' ordinal='2' />
+            <column datatype='integer' name='new_deaths' ordinal='3' />
+            <column datatype='integer' name='infectious' ordinal='4' />
+            <column datatype='integer' name='cumulative_cases' ordinal='5' />
+            <column datatype='integer' name='cumulative_infectious' ordinal='6' />
+            <column datatype='integer' name='cumulative_recovered' ordinal='7' />
+            <column datatype='integer' name='cumulative_deaths' ordinal='8' />
+            <column datatype='integer' name='school_closures' ordinal='9' />
+            <column datatype='integer' name='workplace_closures' ordinal='10' />
+            <column datatype='integer' name='cancel_public_events' ordinal='11' />
+            <column datatype='integer' name='restriction_gatherings' ordinal='12' />
+            <column datatype='integer' name='stay_home_requirements' ordinal='13' />
+            <column datatype='integer' name='facial_coverings' ordinal='14' />
+            <column datatype='integer' name='public_information_campaigns' ordinal='15' />
+            <column datatype='integer' name='close_public_transport' ordinal='16' />
+            <column datatype='integer' name='restrictions_internal_movements' ordinal='17' />
+            <column datatype='integer' name='international_travel_controls' ordinal='18' />
+            <column datatype='integer' name='testing_policy' ordinal='19' />
+            <column datatype='integer' name='contact_tracing' ordinal='20' />
+            <column datatype='integer' name='vaccination_policy' ordinal='21' />
+            <column datatype='integer' name='childhood_vaccine_availability' ordinal='22' />
+            <column datatype='string' name='vaccine_eligibility_age' ordinal='23' />
+            <column datatype='integer' name='income_support' ordinal='24' />
+            <column datatype='integer' name='debt_relief' ordinal='25' />
+            <column datatype='integer' name='vaccine_eligibility_age_categorical' ordinal='26' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0kxgxej1mea8ra16xbc40100jgua' name='main.csv' table='[main#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='Day' ordinal='0' />
+            <column datatype='integer' name='daily_new_cases' ordinal='1' />
+            <column datatype='integer' name='daily_recovered_cases' ordinal='2' />
+            <column datatype='integer' name='new_deaths' ordinal='3' />
+            <column datatype='integer' name='infectious' ordinal='4' />
+            <column datatype='integer' name='cumulative_cases' ordinal='5' />
+            <column datatype='integer' name='cumulative_infectious' ordinal='6' />
+            <column datatype='integer' name='cumulative_recovered' ordinal='7' />
+            <column datatype='integer' name='cumulative_deaths' ordinal='8' />
+            <column datatype='integer' name='school_closures' ordinal='9' />
+            <column datatype='integer' name='workplace_closures' ordinal='10' />
+            <column datatype='integer' name='cancel_public_events' ordinal='11' />
+            <column datatype='integer' name='restriction_gatherings' ordinal='12' />
+            <column datatype='integer' name='stay_home_requirements' ordinal='13' />
+            <column datatype='integer' name='facial_coverings' ordinal='14' />
+            <column datatype='integer' name='public_information_campaigns' ordinal='15' />
+            <column datatype='integer' name='close_public_transport' ordinal='16' />
+            <column datatype='integer' name='restrictions_internal_movements' ordinal='17' />
+            <column datatype='integer' name='international_travel_controls' ordinal='18' />
+            <column datatype='integer' name='testing_policy' ordinal='19' />
+            <column datatype='integer' name='contact_tracing' ordinal='20' />
+            <column datatype='integer' name='vaccination_policy' ordinal='21' />
+            <column datatype='integer' name='childhood_vaccine_availability' ordinal='22' />
+            <column datatype='string' name='vaccine_eligibility_age' ordinal='23' />
+            <column datatype='integer' name='income_support' ordinal='24' />
+            <column datatype='integer' name='debt_relief' ordinal='25' />
+            <column datatype='integer' name='vaccine_eligibility_age_categorical' ordinal='26' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Day</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Day]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>Day</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daily_new_cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[daily_new_cases]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>daily_new_cases</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daily_recovered_cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[daily_recovered_cases]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>daily_recovered_cases</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[new_deaths]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>new_deaths</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>infectious</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[infectious]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>infectious</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cumulative_cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cumulative_cases]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>cumulative_cases</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cumulative_infectious</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cumulative_infectious]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>cumulative_infectious</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cumulative_recovered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cumulative_recovered]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>cumulative_recovered</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cumulative_deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cumulative_deaths]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>cumulative_deaths</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>school_closures</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[school_closures]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>school_closures</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>workplace_closures</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[workplace_closures]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>workplace_closures</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cancel_public_events</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cancel_public_events]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>cancel_public_events</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>restriction_gatherings</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[restriction_gatherings]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>restriction_gatherings</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stay_home_requirements</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stay_home_requirements]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>stay_home_requirements</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>facial_coverings</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[facial_coverings]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>facial_coverings</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>public_information_campaigns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[public_information_campaigns]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>public_information_campaigns</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>close_public_transport</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[close_public_transport]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>close_public_transport</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>restrictions_internal_movements</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[restrictions_internal_movements]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>restrictions_internal_movements</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>international_travel_controls</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[international_travel_controls]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>international_travel_controls</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>testing_policy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[testing_policy]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>testing_policy</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contact_tracing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contact_tracing]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>contact_tracing</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vaccination_policy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[vaccination_policy]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>vaccination_policy</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>childhood_vaccine_availability</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[childhood_vaccine_availability]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>childhood_vaccine_availability</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vaccine_eligibility_age</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[vaccine_eligibility_age]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>vaccine_eligibility_age</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>income_support</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[income_support]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>income_support</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>debt_relief</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[debt_relief]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>debt_relief</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vaccine_eligibility_age_categorical</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[vaccine_eligibility_age_categorical]</local-name>
+            <parent-name>[main.csv]</parent-name>
+            <remote-alias>vaccine_eligibility_age_categorical</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[main.csv_23D18F4AB7D942E68D5C838E09508F88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='main.csv' datatype='table' hidden='true' name='[__tableau_internal_object_id__].[main.csv_23D18F4AB7D942E68D5C838E09508F88]' role='measure' type='quantitative' />
+      <column caption='Cancel Public Events' datatype='integer' name='[cancel_public_events]' role='measure' type='ordinal' />
+      <column caption='Childhood Vaccine Availability' datatype='integer' name='[childhood_vaccine_availability]' role='measure' type='ordinal' />
+      <column caption='Close Public Transport' datatype='integer' name='[close_public_transport]' role='measure' type='ordinal' />
+      <column caption='Contact Tracing' datatype='integer' name='[contact_tracing]' role='measure' type='ordinal' />
+      <column caption='Cumulative Cases' datatype='integer' name='[cumulative_cases]' role='measure' type='quantitative' />
+      <column caption='Cumulative Deaths' datatype='integer' name='[cumulative_deaths]' role='measure' type='quantitative' />
+      <column caption='Cumulative Infectious' datatype='integer' name='[cumulative_infectious]' role='measure' type='quantitative' />
+      <column caption='Cumulative Recovered' datatype='integer' name='[cumulative_recovered]' role='measure' type='quantitative' />
+      <column caption='Daily New Cases' datatype='integer' name='[daily_new_cases]' role='measure' type='quantitative' />
+      <column caption='Daily Recovered Cases' datatype='integer' name='[daily_recovered_cases]' role='measure' type='quantitative' />
+      <column caption='Debt Relief' datatype='integer' name='[debt_relief]' role='measure' type='ordinal' />
+      <column caption='Facial Coverings' datatype='integer' name='[facial_coverings]' role='measure' type='ordinal' />
+      <column caption='Income Support' datatype='integer' name='[income_support]' role='measure' type='ordinal' />
+      <column caption='Infectious' datatype='integer' name='[infectious]' role='measure' type='quantitative' />
+      <column caption='International Travel Controls' datatype='integer' name='[international_travel_controls]' role='measure' type='ordinal' />
+      <column caption='New Deaths' datatype='integer' name='[new_deaths]' role='measure' type='quantitative' />
+      <column caption='Public Information Campaigns' datatype='integer' name='[public_information_campaigns]' role='measure' type='ordinal' />
+      <column caption='Restriction Gatherings' datatype='integer' name='[restriction_gatherings]' role='measure' type='ordinal' />
+      <column caption='Restrictions Internal Movements' datatype='integer' name='[restrictions_internal_movements]' role='measure' type='ordinal' />
+      <column caption='School Closures' datatype='integer' name='[school_closures]' role='measure' type='ordinal' />
+      <column caption='Stay Home Requirements' datatype='integer' name='[stay_home_requirements]' role='measure' type='ordinal' />
+      <column caption='Testing Policy' datatype='integer' name='[testing_policy]' role='measure' type='ordinal' />
+      <column caption='Vaccination Policy' datatype='integer' name='[vaccination_policy]' role='measure' type='ordinal' />
+      <column caption='Vaccine Eligibility Age' datatype='string' name='[vaccine_eligibility_age]' role='dimension' type='nominal' />
+      <column caption='Vaccine Eligibility Age Categorical' datatype='integer' name='[vaccine_eligibility_age_categorical]' role='measure' type='ordinal' />
+      <column caption='Workplace Closures' datatype='integer' name='[workplace_closures]' role='measure' type='ordinal' />
+      <column-instance column='[cancel_public_events]' derivation='Sum' name='[sum:cancel_public_events:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[childhood_vaccine_availability]' derivation='Sum' name='[sum:childhood_vaccine_availability:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[close_public_transport]' derivation='Sum' name='[sum:close_public_transport:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contact_tracing]' derivation='Sum' name='[sum:contact_tracing:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[cumulative_cases]' derivation='Sum' name='[sum:cumulative_cases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[cumulative_deaths]' derivation='Sum' name='[sum:cumulative_deaths:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[cumulative_infectious]' derivation='Sum' name='[sum:cumulative_infectious:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[cumulative_recovered]' derivation='Sum' name='[sum:cumulative_recovered:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[daily_new_cases]' derivation='Sum' name='[sum:daily_new_cases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[daily_recovered_cases]' derivation='Sum' name='[sum:daily_recovered_cases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[debt_relief]' derivation='Sum' name='[sum:debt_relief:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[facial_coverings]' derivation='Sum' name='[sum:facial_coverings:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[income_support]' derivation='Sum' name='[sum:income_support:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[infectious]' derivation='Sum' name='[sum:infectious:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[international_travel_controls]' derivation='Sum' name='[sum:international_travel_controls:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[new_deaths]' derivation='Sum' name='[sum:new_deaths:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[public_information_campaigns]' derivation='Sum' name='[sum:public_information_campaigns:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[restriction_gatherings]' derivation='Sum' name='[sum:restriction_gatherings:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[restrictions_internal_movements]' derivation='Sum' name='[sum:restrictions_internal_movements:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[school_closures]' derivation='Sum' name='[sum:school_closures:qk]' pivot='key' type='quantitative' />
+      <_.fcp.SchemaViewerObjectModel.false...folder name='Demographics' role='measures'>
+        <folder-item name='[cumulative_cases]' type='field' />
+        <folder-item name='[cumulative_deaths]' type='field' />
+        <folder-item name='[cumulative_infectious]' type='field' />
+        <folder-item name='[cumulative_recovered]' type='field' />
+        <folder-item name='[daily_new_cases]' type='field' />
+        <folder-item name='[daily_recovered_cases]' type='field' />
+        <folder-item name='[infectious]' type='field' />
+        <folder-item name='[new_deaths]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.false...folder name='NPIs' role='measures'>
+        <folder-item name='[cancel_public_events]' type='field' />
+        <folder-item name='[childhood_vaccine_availability]' type='field' />
+        <folder-item name='[close_public_transport]' type='field' />
+        <folder-item name='[contact_tracing]' type='field' />
+        <folder-item name='[debt_relief]' type='field' />
+        <folder-item name='[facial_coverings]' type='field' />
+        <folder-item name='[income_support]' type='field' />
+        <folder-item name='[international_travel_controls]' type='field' />
+        <folder-item name='[public_information_campaigns]' type='field' />
+        <folder-item name='[restriction_gatherings]' type='field' />
+        <folder-item name='[restrictions_internal_movements]' type='field' />
+        <folder-item name='[school_closures]' type='field' />
+        <folder-item name='[stay_home_requirements]' type='field' />
+        <folder-item name='[testing_policy]' type='field' />
+        <folder-item name='[vaccination_policy]' type='field' />
+        <folder-item name='[vaccine_eligibility_age_categorical]' type='field' />
+        <folder-item name='[workplace_closures]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.true...folders-common>
+        <folder name='Demographics'>
+          <folder-item name='[cumulative_cases]' type='field' />
+          <folder-item name='[cumulative_deaths]' type='field' />
+          <folder-item name='[cumulative_infectious]' type='field' />
+          <folder-item name='[cumulative_recovered]' type='field' />
+          <folder-item name='[daily_new_cases]' type='field' />
+          <folder-item name='[daily_recovered_cases]' type='field' />
+          <folder-item name='[infectious]' type='field' />
+          <folder-item name='[new_deaths]' type='field' />
+        </folder>
+        <folder name='NPIs'>
+          <folder-item name='[cancel_public_events]' type='field' />
+          <folder-item name='[childhood_vaccine_availability]' type='field' />
+          <folder-item name='[close_public_transport]' type='field' />
+          <folder-item name='[contact_tracing]' type='field' />
+          <folder-item name='[debt_relief]' type='field' />
+          <folder-item name='[facial_coverings]' type='field' />
+          <folder-item name='[income_support]' type='field' />
+          <folder-item name='[international_travel_controls]' type='field' />
+          <folder-item name='[public_information_campaigns]' type='field' />
+          <folder-item name='[restriction_gatherings]' type='field' />
+          <folder-item name='[restrictions_internal_movements]' type='field' />
+          <folder-item name='[school_closures]' type='field' />
+          <folder-item name='[stay_home_requirements]' type='field' />
+          <folder-item name='[testing_policy]' type='field' />
+          <folder-item name='[vaccination_policy]' type='field' />
+          <folder-item name='[vaccine_eligibility_age_categorical]' type='field' />
+          <folder-item name='[workplace_closures]' type='field' />
+        </folder>
+      </_.fcp.SchemaViewerObjectModel.true...folders-common>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-hidden-fields='true' show-structure='false' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:cumulative_recovered:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:daily_new_cases:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:contact_tracing:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:income_support:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:daily_recovered_cases:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:cumulative_cases:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:restrictions_internal_movements:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:cancel_public_events:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:public_information_campaigns:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:cumulative_deaths:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:infectious:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:international_travel_controls:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:restriction_gatherings:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:school_closures:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:debt_relief:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:cumulative_infectious:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:childhood_vaccine_availability:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:new_deaths:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:facial_coverings:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:close_public_transport:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Taiwan&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='main.csv' id='main.csv_23D18F4AB7D942E68D5C838E09508F88'>
+            <properties context=''>
+              <relation connection='textscan.0kxgxej1mea8ra16xbc40100jgua' name='main.csv' table='[main#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' name='Day' ordinal='0' />
+                  <column datatype='integer' name='daily_new_cases' ordinal='1' />
+                  <column datatype='integer' name='daily_recovered_cases' ordinal='2' />
+                  <column datatype='integer' name='new_deaths' ordinal='3' />
+                  <column datatype='integer' name='infectious' ordinal='4' />
+                  <column datatype='integer' name='cumulative_cases' ordinal='5' />
+                  <column datatype='integer' name='cumulative_infectious' ordinal='6' />
+                  <column datatype='integer' name='cumulative_recovered' ordinal='7' />
+                  <column datatype='integer' name='cumulative_deaths' ordinal='8' />
+                  <column datatype='integer' name='school_closures' ordinal='9' />
+                  <column datatype='integer' name='workplace_closures' ordinal='10' />
+                  <column datatype='integer' name='cancel_public_events' ordinal='11' />
+                  <column datatype='integer' name='restriction_gatherings' ordinal='12' />
+                  <column datatype='integer' name='stay_home_requirements' ordinal='13' />
+                  <column datatype='integer' name='facial_coverings' ordinal='14' />
+                  <column datatype='integer' name='public_information_campaigns' ordinal='15' />
+                  <column datatype='integer' name='close_public_transport' ordinal='16' />
+                  <column datatype='integer' name='restrictions_internal_movements' ordinal='17' />
+                  <column datatype='integer' name='international_travel_controls' ordinal='18' />
+                  <column datatype='integer' name='testing_policy' ordinal='19' />
+                  <column datatype='integer' name='contact_tracing' ordinal='20' />
+                  <column datatype='integer' name='vaccination_policy' ordinal='21' />
+                  <column datatype='integer' name='childhood_vaccine_availability' ordinal='22' />
+                  <column datatype='string' name='vaccine_eligibility_age' ordinal='23' />
+                  <column datatype='integer' name='income_support' ordinal='24' />
+                  <column datatype='integer' name='debt_relief' ordinal='25' />
+                  <column datatype='integer' name='vaccine_eligibility_age_categorical' ordinal='26' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='NPIs'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Default Title&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='main' name='federated.09tos4o11xru0c17lsjt9041yetb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09tos4o11xru0c17lsjt9041yetb'>
+            <column datatype='date' name='[Day]' role='dimension' type='ordinal' />
+            <column caption='Cancel Public Events' datatype='integer' name='[cancel_public_events]' role='measure' type='ordinal' />
+            <column caption='Childhood Vaccine Availability' datatype='integer' name='[childhood_vaccine_availability]' role='measure' type='ordinal' />
+            <column caption='Close Public Transport' datatype='integer' name='[close_public_transport]' role='measure' type='ordinal' />
+            <column caption='Contact Tracing' datatype='integer' name='[contact_tracing]' role='measure' type='ordinal' />
+            <column caption='Debt Relief' datatype='integer' name='[debt_relief]' role='measure' type='ordinal' />
+            <column caption='Facial Coverings' datatype='integer' name='[facial_coverings]' role='measure' type='ordinal' />
+            <column caption='Income Support' datatype='integer' name='[income_support]' role='measure' type='ordinal' />
+            <column caption='International Travel Controls' datatype='integer' name='[international_travel_controls]' role='measure' type='ordinal' />
+            <column-instance column='[Day]' derivation='None' name='[none:Day:qk]' pivot='key' type='quantitative' />
+            <column caption='Public Information Campaigns' datatype='integer' name='[public_information_campaigns]' role='measure' type='ordinal' />
+            <column caption='Restriction Gatherings' datatype='integer' name='[restriction_gatherings]' role='measure' type='ordinal' />
+            <column caption='Restrictions Internal Movements' datatype='integer' name='[restrictions_internal_movements]' role='measure' type='ordinal' />
+            <column caption='School Closures' datatype='integer' name='[school_closures]' role='measure' type='ordinal' />
+            <column caption='Stay Home Requirements' datatype='integer' name='[stay_home_requirements]' role='measure' type='ordinal' />
+            <column-instance column='[cancel_public_events]' derivation='Sum' name='[sum:cancel_public_events:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[childhood_vaccine_availability]' derivation='Sum' name='[sum:childhood_vaccine_availability:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[close_public_transport]' derivation='Sum' name='[sum:close_public_transport:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contact_tracing]' derivation='Sum' name='[sum:contact_tracing:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[debt_relief]' derivation='Sum' name='[sum:debt_relief:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[facial_coverings]' derivation='Sum' name='[sum:facial_coverings:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[income_support]' derivation='Sum' name='[sum:income_support:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[international_travel_controls]' derivation='Sum' name='[sum:international_travel_controls:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[public_information_campaigns]' derivation='Sum' name='[sum:public_information_campaigns:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[restriction_gatherings]' derivation='Sum' name='[sum:restriction_gatherings:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[restrictions_internal_movements]' derivation='Sum' name='[sum:restrictions_internal_movements:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[school_closures]' derivation='Sum' name='[sum:school_closures:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[stay_home_requirements]' derivation='Sum' name='[sum:stay_home_requirements:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[testing_policy]' derivation='Sum' name='[sum:testing_policy:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[vaccination_policy]' derivation='Sum' name='[sum:vaccination_policy:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[vaccine_eligibility_age_categorical]' derivation='Sum' name='[sum:vaccine_eligibility_age_categorical:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[workplace_closures]' derivation='Sum' name='[sum:workplace_closures:qk]' pivot='key' type='quantitative' />
+            <column caption='Testing Policy' datatype='integer' name='[testing_policy]' role='measure' type='ordinal' />
+            <column caption='Vaccination Policy' datatype='integer' name='[vaccination_policy]' role='measure' type='ordinal' />
+            <column caption='Vaccine Eligibility Age Categorical' datatype='integer' name='[vaccine_eligibility_age_categorical]' role='measure' type='ordinal' />
+            <column caption='Workplace Closures' datatype='integer' name='[workplace_closures]' role='measure' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09tos4o11xru0c17lsjt9041yetb].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:cancel_public_events:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:childhood_vaccine_availability:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:close_public_transport:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:contact_tracing:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:debt_relief:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:facial_coverings:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:income_support:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:international_travel_controls:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:public_information_campaigns:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:restriction_gatherings:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:restrictions_internal_movements:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:school_closures:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:stay_home_requirements:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:testing_policy:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:vaccination_policy:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:vaccine_eligibility_age_categorical:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:workplace_closures:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.09tos4o11xru0c17lsjt9041yetb].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.09tos4o11xru0c17lsjt9041yetb].[Multiple Values]' num-steps='2' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.09tos4o11xru0c17lsjt9041yetb].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.09tos4o11xru0c17lsjt9041yetb].[Multiple Values]</rows>
+        <cols>[federated.09tos4o11xru0c17lsjt9041yetb].[none:Day:qk]</cols>
+        <pages>
+          <column>[federated.09tos4o11xru0c17lsjt9041yetb].[:Measure Names]</column>
+        </pages>
+      </table>
+      <simple-id uuid='{0090E01F-D324-4470-8882-04D2232A4FB1}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='98000' id='3' name='NPIs' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='3000' id='8' name='NPIs' pane-specification-id='0' param='[federated.09tos4o11xru0c17lsjt9041yetb].[sum:cancel_public_events:ok]' type-v2='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='11' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='NPIs' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3000' id='8' name='NPIs' pane-specification-id='0' param='[federated.09tos4o11xru0c17lsjt9041yetb].[sum:cancel_public_events:ok]' type-v2='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C18F0A82-0322-469A-B553-52893D1117E2}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='NPIs'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>&quot;[federated.09tos4o11xru0c17lsjt9041yetb].[sum:workplace_closures:qk]&quot;</bucket>
+          </multibucket>
+        </current-page>
+        <highlight>
+          <color-one-way>
+            <field>[federated.09tos4o11xru0c17lsjt9041yetb].[:Measure Names]</field>
+            <field>[federated.09tos4o11xru0c17lsjt9041yetb].[none:vaccine_eligibility_age:nk]</field>
+            <field>[federated.09tos4o11xru0c17lsjt9041yetb].[sum:cancel_public_events:ok]</field>
+            <field>[federated.09tos4o11xru0c17lsjt9041yetb].[sum:childhood_vaccine_availability:ok]</field>
+            <field>[federated.09tos4o11xru0c17lsjt9041yetb].[sum:close_public_transport:ok]</field>
+            <field>[federated.09tos4o11xru0c17lsjt9041yetb].[sum:contact_tracing:ok]</field>
+            <field>[federated.09tos4o11xru0c17lsjt9041yetb].[sum:debt_relief:ok]</field>
+            <field>[federated.09tos4o11xru0c17lsjt9041yetb].[sum:infectious:ok]</field>
+            <field>[federated.09tos4o11xru0c17lsjt9041yetb].[sum:workplace_closures:ok]</field>
+            <field>[federated.09tos4o11xru0c17lsjt9041yetb].[yr:Day:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{59D53B14-7020-4A97-AB07-13804F949217}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='NPIs'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.09tos4o11xru0c17lsjt9041yetb].[sum:cancel_public_events:ok]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <device-preview visible='true' />
+      <simple-id uuid='{3B2A7330-F31A-4A1E-A9D9-B463962072B9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='NPIs' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
